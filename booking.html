@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="text">Đăng kí du lịch</h1>
+    <div class="container">     
+        <div class="name">
+            <div class="yourname">
+                <h3>Họ và tên</h3>
+            </div>
+            <div class="input-name">
+                <input id="myName" type='text' name='name' class='input' required>
+            </div>  
+        </div>
+    
+        <div class="name">
+            <div class="yourname">
+                <h3>Địa chỉ</h3>
+            </div>
+            <div class="input-name">
+                <input id='address' type='text' name='address' class='input' required>
+            </div>  
+        </div>
+    
+        <div class="name">
+            <div class="yourname">
+                <h3>Điện thoại</h3>
+            </div>
+            <div class="input-name">
+                <input id='phone' type='text' name='phone' class='input' required>
+            </div>  
+        </div>
+    
+        <div class="name">
+            <div class="yourname">
+                <h3>Khách Việt Nam</h3>
+            </div>
+            <div class="input-name">
+                <input id='check-guest' type='checkbox' name='check-guest'>
+            </div>  
+        </div>
+        
+        
+        <div class="name">
+            <div class="yourname">
+                <h3>Chọn tour</h3>
+            </div>
+            <select class="input-name2">
+                <option>Buôn mê thuật - Gia lai - Kontum</option>
+            </select>  
+        </div>
+    
+        <div class="name">
+            <div class="yourname">
+                <h3>Phương tiện</h3>
+            </div>
+            <div class="input-name">
+                <input id='rdoPlanes' type='radio' name='planes'> Máy bay
+                <input id='rdoCar' type='radio' name='car' checked> xe ô tô
+            </div>  
+        </div>
+    
+        <div class="so-luong-khach">
+            <h4>Số lượng đoàn khách</h4>
+            Người lớn <input id='nguoi-lon' type='text' name='nguoi-lon' required>
+            Trẻ em <input id='tre-em' type='text' name = 'tre-em' required>
+        </div>
+    
+        <div class="name">
+            <div class="yourname">
+                <h3>Ghi chú thêm</h3>
+            </div>
+            <div class="input-name">
+                <input type='text' name='ghi-chu-them' class='input'>
+            </div>  
+        </div>
+    
+        <div class="btn">
+            <button id ='submit'>Đồng ý</button>
+            <button id ='reset'>Reset</button>
+        </div>
+    
+        <div class="alert">
+            <h2 id= "thong-bao"></h2>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

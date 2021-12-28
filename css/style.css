@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+}
+.fix{
+    position: relative;
+    top: -35px;
+}
+.top-menu{
+    background-color:#DC1588;
+    height:50px;
+    text-align:center;
+}
+.top-color{
+    color: #FFFF63;  
+    font-size: 20px;
+    font-weight: bold;
+}
+.design-top{
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.gap{
+    margin-right:20px
+}
+
+.main-color{
+    color:red,
+}
+.fix-image{
+    margin-left:250px;
+    margin-top:10px
+}
+.img{
+    margin-top: -20px;
+    width: 100%;
+}
+
+/*css trang booking.html*/
+.text{
+    color:blue;
+    text-align: center;
+}
+.name{
+    display:flex
+}
+.input-name{
+    width: 500px;
+    border: 1px solid black;
+}
+.yourname{
+    border: 1px solid black;
+    width: 200px;
+}
+h3{
+    color:aqua
+}
+.input{
+    width:400px;
+    margin: 5px;
+}
+.input-name2{
+    width: 502px;
+    border: 1px solid black;
+}
+.so-luong-khach{
+    width:702px;
+    border: 1px solid black;
+    text-align: center;
+}
+.btn{
+    width:702px;
+    border: 1px solid black;
+    text-align: center;
+}
+.alert{
+    width:702px;
+    border: 1px solid black;
+    text-align: center; 
+}
+.thong-bao{
+    color:orange;
+}
+.container{
+    margin-left: 400px;
+}
