@@ -22,7 +22,7 @@ var thongbao = document.getElementById('thong-bao')
 submit.onclick = function(e){
     let checkName = nameValid.test(nameguest.value)
     let checkaddress = addressValid.test(address.value)
-    let checkphone = phonevalid.test(phone.value)
+    let checkphone = phoneValid.test(phone.value)
     let checkguest = guestValid.test(guest.value)
     let c
     if(checkName == true){
